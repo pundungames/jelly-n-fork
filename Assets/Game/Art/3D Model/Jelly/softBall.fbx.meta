@@ -3,7 +3,12 @@ guid: 75f36cf52c038974ca8baefdd95a8419
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jelly
+    second: {fileID: 2100000, guid: 8e20440fd9c159c4cbbebd54fbc94476, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
