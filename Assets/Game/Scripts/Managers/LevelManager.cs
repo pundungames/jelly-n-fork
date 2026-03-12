@@ -5,20 +5,21 @@ public class LevelManager : MonoBehaviour
 {
     void Awake()
     {
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
     }
     public void Load()
     {
-        int level = PlayerPrefs.GetInt("_level", 1);
+        int level = PlayerPrefs.GetInt("_level", 0);
 
         //loop
         if (SceneManager.GetActiveScene().buildIndex != level)
         {
-            if (level > 27)
+            if (level > 6)
             {
-                level = Random.Range(5, 28);
+                level = Random.Range(0, 7);
             }
         }
+       
         SceneManager.LoadScene(level);
     }
     private void OnEnable()
@@ -33,7 +34,8 @@ public class LevelManager : MonoBehaviour
     }
     void LevelComplete()
     {
-        PlayerPrefs.SetInt("_level", PlayerPrefs.GetInt("_level", 1));
+        PlayerPrefs.SetInt("_level", PlayerPrefs.GetInt("_level", 0) + 1);
+        Invoke(nameof(Load), 0.6f);
     }
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {

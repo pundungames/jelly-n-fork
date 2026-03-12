@@ -21,11 +21,16 @@ public class UIManager : MonoBehaviour
     private void OnEnable()
     {
         EventManager.gameModeChange += GameModeChange;
+        EventManager.levelComplete += EndGamePanel;
         EventManager.levelFail += Fail;
     }
+
+    
+
     private void OnDisable()
     {
         EventManager.gameModeChange -= GameModeChange;
+        EventManager.levelComplete -= EndGamePanel;
         EventManager.levelFail -= Fail;
     }
     void GameModeChange(GameMode mode)
@@ -42,10 +47,11 @@ public class UIManager : MonoBehaviour
         EventManager.OnGameModeChange(GameMode.game);
         menuPanel.SetActive(false);
     }
+    
     void Fail()
     {
         failPanel.SetActive(true);
-        Invoke("Retry", 2f);
+        Invoke("Retry", 0.6f);
     }
     void Retry()
     {
