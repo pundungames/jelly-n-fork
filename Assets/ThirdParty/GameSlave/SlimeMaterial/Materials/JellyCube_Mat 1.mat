@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: JellyCube_Mat
+  m_Name: JellyCube_Mat 1
   m_Shader: {fileID: -6465566751694194690, guid: 4a390dfdf848d4142b0bf3089315160d,
     type: 3}
   m_Parent: {fileID: 0}
@@ -59,12 +59,12 @@ Material:
     - _QueueOffset: 0
     - _Refraction: 0.951
     - _Smoothness: 0.5
-    - _Transparency: 0.904
+    - _Transparency: 1
     - _offsetView: 0.979
     - _offsetView_01: 0.91
     - _offsetView_02: -0.14
     m_Colors:
-    - _Color: {r: 8, g: 0, b: 0, a: 0}
+    - _Color: {r: 0, g: 2.9960785, b: 1.7898813, a: 0}
     - _FresnelColor: {r: 0, g: 1.370222, b: 2, a: 0}
     - _NormalTiling_X: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
