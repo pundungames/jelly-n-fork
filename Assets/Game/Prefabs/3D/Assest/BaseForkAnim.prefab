@@ -66,7 +66,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 51c9c7cc75134154c8112f8bf1ac92d7,
         type: 3}
       propertyPath: m_Name
-      value: Fork
+      value: BaseForkAnim
       objectReference: {fileID: 0}
     - target: {fileID: 5419356733531193720, guid: 51c9c7cc75134154c8112f8bf1ac92d7,
         type: 3}
@@ -134,6 +134,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32090b9c9ac2ca4391f9a4a8c301393, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animNames:
+  - Anim1
+  - Anim2
+  - Anim3
+  - Anim4
+  - Anim5
+  - Anim6
+  transitionDelay: 2
 --- !u!4 &4168497524290718681 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 51c9c7cc75134154c8112f8bf1ac92d7,

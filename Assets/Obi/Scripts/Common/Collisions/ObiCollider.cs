@@ -14,7 +14,7 @@ namespace Obi
 
         [SerializeProperty("sourceCollider")]
         [FormerlySerializedAs("SourceCollider")]
-        [SerializeField] private Collider m_SourceCollider;
+        [SerializeField] public Collider m_SourceCollider;
 
         /// <summary>
         /// The Unity collider that this ObiCollider should mimic.
