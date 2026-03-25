@@ -51,21 +51,21 @@ Material:
     - _FresnelPower: 4.38
     - _Metallic: 0
     - _NoiseScale: 77.1
-    - _NormalStrenght: 0.482
+    - _NormalStrenght: 0.376
     - _NormalTiling_X: 4
     - _NormalTiling_Y: 4
     - _NosieAmount: -0.014
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Refraction: 0.951
-    - _Smoothness: 0.664
-    - _Transparency: 0.894
+    - _Smoothness: 0.5
+    - _Transparency: 0.904
     - _offsetView: 0.979
     - _offsetView_01: 0.91
     - _offsetView_02: -0.14
     m_Colors:
-    - _Color: {r: 3.6603773, g: 0.14186949, b: 0, a: 0}
-    - _FresnelColor: {r: 1.083177, g: 0.45690125, b: 0.1077506, a: 0}
+    - _Color: {r: 8, g: 0, b: 0, a: 0}
+    - _FresnelColor: {r: 0, g: 1.370222, b: 2, a: 0}
     - _NormalTiling_X: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &3571339770345261225

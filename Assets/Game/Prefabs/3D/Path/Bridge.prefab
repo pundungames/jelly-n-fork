@@ -71,5 +71,58 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e64ef5c76c908d345a3036c5e5439a94,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4927448398525520147}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e64ef5c76c908d345a3036c5e5439a94,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4324092569006620762}
   m_SourcePrefab: {fileID: 100100000, guid: e64ef5c76c908d345a3036c5e5439a94, type: 3}
+--- !u!1 &5175612650413173532 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e64ef5c76c908d345a3036c5e5439a94,
+    type: 3}
+  m_PrefabInstance: {fileID: 5409405452711106125}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &4927448398525520147
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5175612650413173532}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5854088795082504319, guid: e64ef5c76c908d345a3036c5e5439a94, type: 3}
+--- !u!114 &4324092569006620762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5175612650413173532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6757b231cedd544c583ef8aeaf773b2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thickness: 0
+  material: {fileID: 11400000, guid: d368f2c47473d4bfb8dd9f08073cb403, type: 2}
+  filter: -65535
+  m_SourceCollider: {fileID: 4927448398525520147}
+  m_DistanceField: {fileID: 0}
